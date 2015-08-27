@@ -5,11 +5,11 @@
 
 $pagina =basename($_SERVER['REQUEST_URI']) ;
 
-		switch ($pagina) {
-			case 'catalogo.php':
-				echo 'catalogo';
-				break;
+	switch ($pagina) {
+		case 'catalogo.php':
+			echo 'catalogo';
+		break;
 		
-		}
+	}
 
 '''
