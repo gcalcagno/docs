@@ -1,7 +1,8 @@
 #PHP
 
 #### OBTENER URL
-'''php
+
+```php
 
 $pagina =basename($_SERVER['REQUEST_URI']) ;
 
@@ -11,5 +12,4 @@ $pagina =basename($_SERVER['REQUEST_URI']) ;
 		break;
 		
 	}
-
-'''
+```
