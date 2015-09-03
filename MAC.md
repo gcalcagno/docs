@@ -1,9 +1,9 @@
-#### XAMPP EN MAC
+# XAMPP EN MAC
 
 https://www.apachefriends.org/es/faq_osx.html
 
-#UBICACION
+####UBICACION
 aplicaciones->xampp->htdocs
 
-#INICIAR XAMPP
+####INICIAR XAMPP
 aplicaciones->xampp->manager-osx
