@@ -1,7 +1,7 @@
 #GIT
 
 
-#### XAMPP
+#### ERRORES
 Git cannot create a file or directory with a long path
 #
 solucion -> git config core.longpaths true
