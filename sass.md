@@ -1,6 +1,7 @@
 # SASS
-
-#### INSTALACIÓN
+http://sass-lang.com/install
+#
+#### INSTALACIÓN WINDOWS
 1) instalar ruby ->http://rubyinstaller.org/
 #
 2) $ gem install sass
