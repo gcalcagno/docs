@@ -14,6 +14,6 @@ $( window ).resize(function() {
 ```
 ###WIDTH - HETGHT
 ``` js
-.width();
-.height();
+$( window ).width();
+$( window ).height();
 ```
