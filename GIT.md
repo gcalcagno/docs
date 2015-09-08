@@ -12,3 +12,7 @@ link -> https://github.com/msysgit/msysgit/wiki/Git-cannot-create-a-file-or-dire
 -agregar archivo en .gitignore
 #
 $ git update-index --assume-unchanged filename
+
+
+####MERGE GIT
+#esc :q
