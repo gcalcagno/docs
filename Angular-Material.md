@@ -2,7 +2,7 @@
 Diseño CSS sensible del angular de materiales se basa en FlexBox.
 El sistema de diseño se basa en los atributos de elemento en lugar de clases CSS. Los atributos proporcionan una manera fácil de configurar un valor (por ejemplo layout = "fila"), y, además, nos ayuda a preocupaciones distintas: atributos definen el diseño, y las clases definen el estilo.
 #
--------
+---
 
 ####BASIC HTML
 ```html
@@ -29,7 +29,7 @@ El sistema de diseño se basa en los atributos de elemento en lugar de clases CS
 	</body>
 </html>
 ```
--------
+---
 ##LAYOUT
 Utilice el diseño de atributo en un elemento para organizar sus hijos horizontalmente en una fila **layout="row"** (layout = "fila"), o verticalmente en una columna **layout="column"** (layout = "columna").
 
@@ -52,13 +52,11 @@ Utilice el diseño de atributo en un elemento para organizar sus hijos horizonta
   </div>
 </div>
 ```
-
 **layout-margin** añade margin alrededor de cada flex 'hijo'.
-
 **layout-padding** añade padding alrededor de cada flex 'hijo'.
-
 **layout-fill** obliga al elemento a llenar su contenedor principal. 
--------
+
+---
 ##FLEX
 Agregue el flex atributo al elemento secundario de un diseño, y se doblará (estiramiento) para rellenar el área disponible.
 ```html
@@ -156,4 +154,4 @@ El atributo flex puede tener un valor entero de 0-100. El elemento se extenderá
 #
 #
 #
--------
+---
