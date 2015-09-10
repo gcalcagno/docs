@@ -32,6 +32,8 @@
 #
 **orden flex-gt-lg**	Establece orden de los elementos en los dispositivos de más de 1200px de ancho.
 
+
+####BASIC HTML
 ```html
 <html ng-app >
 	<head>
