@@ -15,7 +15,16 @@
 **offset-lg**	Establece compensado en dispositivos entre 960px y 1200px de ancho elemento.
 #
 **offset-gt-lg**	Compensado en los dispositivos de más de 1200px de ancho elemento Sets.
-
+```html
+<div layout="row">
+  <div flex offset="33">
+    [flex offset="33"]
+  </div>
+  <div flex>
+    [flex]
+  </div>
+</div>
+```
 #
 #
 ####FLEX
@@ -35,26 +44,6 @@ Agregue el flex atributo al elemento secundario de un diseño, y se doblará (es
 ```
 ####FLEX = 'valor'
 El atributo flex puede tener un valor entero de 0-100. El elemento se extenderá al porcentaje de espacio disponible que coincida con el valor. El valor de flex está limitado a 33, 66, y múltiplos de cinco. Por ejemplo: flex = "5", flex = "20", flex = "33" , flex = "50", flex = "66", flex = "75", .... 
-#
-
-####FLEX ORDER
-**flex-order**	Establece orden de los elementos.
-#
-**flex-order-sm**	Establece orden de los elementos en los dispositivos menos de 600px de ancho.
-#
-**flex-order-gt-sm**	Establece orden de los elementos en los dispositivos de más de 600px de ancho.
-#
-**flex-order-md**	Establece orden de los elementos en los dispositivos entre 600px y 960px de ancho.
-#
-**flex-order-gt-md**	Establece orden de los elementos en los dispositivos de más de 960px de ancho.
-#
-**flex-order-lg**	Establece orden de los elementos en los dispositivos entre 960px y 1200px de ancho.
-#
-**flex-order-gt-lg**	Establece orden de los elementos en los dispositivos de más de 1200px de ancho.
-
-#
-#
-#
 ```html
 <div layout="row" layout-wrap>
   <div flex="33">
@@ -74,6 +63,38 @@ El atributo flex puede tener un valor entero de 0-100. El elemento se extenderá
   </div>
 </div>
 ```
+
+####FLEX ORDER
+**flex-order**	Establece orden de los elementos.
+#
+**flex-order-sm**	Establece orden de los elementos en los dispositivos menos de 600px de ancho.
+#
+**flex-order-gt-sm**	Establece orden de los elementos en los dispositivos de más de 600px de ancho.
+#
+**flex-order-md**	Establece orden de los elementos en los dispositivos entre 600px y 960px de ancho.
+#
+**flex-order-gt-md**	Establece orden de los elementos en los dispositivos de más de 960px de ancho.
+#
+**flex-order-lg**	Establece orden de los elementos en los dispositivos entre 960px y 1200px de ancho.
+#
+**flex-order-gt-lg**	Establece orden de los elementos en los dispositivos de más de 1200px de ancho.
+```html
+<div layout="row" layout-margin>
+  <div flex flex-order="3">
+    [flex-order="3"]
+  </div>
+  <div flex flex-order="2">
+    [flex-order="2"]
+  </div>
+  <div flex flex-order="1">
+    [flex-order="1"]
+  </div>
+</div>
+```
+#
+#
+#
+
 ####BASIC HTML
 ```html
 <html ng-app >
