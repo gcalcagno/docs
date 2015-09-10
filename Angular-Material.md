@@ -30,7 +30,30 @@ El sistema de diseño se basa en los atributos de elemento en lugar de clases CS
 </html>
 ```
 -------
-####FLEX
+##LAYOUT
+Utilice el diseño de atributo en un elemento para organizar sus hijos horizontalmente en una fila **layout="row"** (layout = "fila"), o verticalmente en una columna **layout="column"** (layout = "columna").
+
+```html
+<div layout="row">
+  <div>I'm left.</div>
+  <div>I'm right.</div>
+</div>
+<div layout="column">
+  <div>I'm above.</div>
+  <div>I'm below.</div>
+</div>
+
+<div layout="row" layout-sm="column">
+  <div flex>
+    I'm above on mobile, and to the left on larger devices.
+  </div>
+  <div flex>
+    I'm below on mobile, and to the right on larger devices.
+  </div>
+</div>
+```
+-------
+##FLEX
 Agregue el flex atributo al elemento secundario de un diseño, y se doblará (estiramiento) para rellenar el área disponible.
 ```html
 <div layout="row">
