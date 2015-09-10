@@ -16,7 +16,8 @@
 #
 **offset-gt-lg**	Compensado en los dispositivos de más de 1200px de ancho elemento Sets.
 
-
+#
+#
 ####FLEX
 **orden flex**	Establece orden de los elementos.
 #
@@ -32,7 +33,28 @@
 #
 **orden flex-gt-lg**	Establece orden de los elementos en los dispositivos de más de 1200px de ancho.
 
-
+#
+#
+#
+```html
+<div layout="row" layout-wrap>
+  <div flex="33">
+    [flex="33"]
+  </div>
+  <div flex="55">
+    [flex="55"]
+  </div>
+  <div flex>
+    [flex]
+  </div>
+  <div flex="66">
+    [flex="66"]
+  </div>
+  <div flex>
+    [flex]
+  </div>
+</div>
+```
 ####BASIC HTML
 ```html
 <html ng-app >
