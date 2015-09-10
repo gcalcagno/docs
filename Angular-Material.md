@@ -19,19 +19,20 @@
 #
 #
 ####FLEX
-**orden flex**	Establece orden de los elementos.
+El atributo flex puede tener un valor entero de 0-100. El elemento se extenderá al porcentaje de espacio disponible que coincida con el valor. El valor de flex está limitado a 33, 66, y múltiplos de cinco. Por ejemplo: flex = "5", flex = "20", flex = "33" , flex = "50", flex = "66", flex = "75", .... 
+**flex-order**	Establece orden de los elementos.
 #
-**orden flex-sm**	Establece orden de los elementos en los dispositivos menos de 600px de ancho.
+**flex-order-sm**	Establece orden de los elementos en los dispositivos menos de 600px de ancho.
 #
-**orden flex-gt-sm**	Establece orden de los elementos en los dispositivos de más de 600px de ancho.
+**flex-order-gt-sm**	Establece orden de los elementos en los dispositivos de más de 600px de ancho.
 #
-**orden flex-md**	Establece orden de los elementos en los dispositivos entre 600px y 960px de ancho.
+**flex-order-md**	Establece orden de los elementos en los dispositivos entre 600px y 960px de ancho.
 #
-**orden flex-gt-md**	Establece orden de los elementos en los dispositivos de más de 960px de ancho.
+**flex-order-gt-md**	Establece orden de los elementos en los dispositivos de más de 960px de ancho.
 #
-**flex-pedido-lg**	Establece orden de los elementos en los dispositivos entre 960px y 1200px de ancho.
+**flex-order-lg**	Establece orden de los elementos en los dispositivos entre 960px y 1200px de ancho.
 #
-**orden flex-gt-lg**	Establece orden de los elementos en los dispositivos de más de 1200px de ancho.
+**flex-order-gt-lg**	Establece orden de los elementos en los dispositivos de más de 1200px de ancho.
 
 #
 #
