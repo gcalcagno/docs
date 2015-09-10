@@ -56,8 +56,8 @@ Utilice el diseño de atributo en un elemento para organizar sus hijos horizonta
 **layout-margin** añade margin alrededor de cada flex 'hijo'.
 #
 **layout-padding** añade padding alrededor de cada flex 'hijo'.
-#
-**layout-fill** obliga al elemento a llenar su contenedor principal. 
+*
+**layout-fill** obliga al elemento a llenar su contenedor principal. *
 -------
 ##FLEX
 Agregue el flex atributo al elemento secundario de un diseño, y se doblará (estiramiento) para rellenar el área disponible.
