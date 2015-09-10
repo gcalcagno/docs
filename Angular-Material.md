@@ -2,7 +2,34 @@
 Diseño CSS sensible del angular de materiales se basa en FlexBox.
 El sistema de diseño se basa en los atributos de elemento en lugar de clases CSS. Los atributos proporcionan una manera fácil de configurar un valor (por ejemplo layout = "fila"), y, además, nos ayuda a preocupaciones distintas: atributos definen el diseño, y las clases definen el estilo.
 #
-------------------------
+-------
+
+####BASIC HTML
+```html
+<html ng-app >
+	<head>
+	    	<title>Angular Material Design</title>
+	    	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	    	<!-- lib angular -->
+	    	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+
+	     	<!-- Angular Material CSS now available via Google CDN; version 0.10 used here -->
+    		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.min.css">
+  	</head>
+  	
+  	<body ng-app="app">
+		<!-- Angular Material Dependencies -->
+	    	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	    	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+	    	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
+
+	    	<!-- Angular Material Javascript now available via Google CDN; version 0.10 used here -->
+	    	<script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.min.js"></script>
+	</body>
+</html>
+```
+-------
 ####FLEX
 Agregue el flex atributo al elemento secundario de un diseño, y se doblará (estiramiento) para rellenar el área disponible.
 ```html
@@ -100,33 +127,4 @@ El atributo flex puede tener un valor entero de 0-100. El elemento se extenderá
 #
 #
 #
-
-####BASIC HTML
-```html
-<html ng-app >
-	<head>
-	    <title>Angular Material Design</title>
-	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-	    <!-- lib angular -->
-	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-
-	     <!-- Angular Material CSS now available via Google CDN; version 0.10 used here -->
-    	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.min.css">
-
-  	</head>
-  	
-  	<body ng-app="app">
-
-
-		  <!-- Angular Material Dependencies -->
-	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
-	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
-
-	    <!-- Angular Material Javascript now available via Google CDN; version 0.10 used here -->
-	    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.min.js"></script>
-
-	</body>
-</html>
-```
+-------
