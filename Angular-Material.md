@@ -1,7 +1,7 @@
 #Angular Material
 
 #
-offset	Elemento Conjuntos compensado.
+**offset**	Elemento Conjuntos compensado.
 #
 offset-sm	Elemento Conjuntos compensado en dispositivos menos de 600px de ancho.
 #
