@@ -19,7 +19,14 @@
 #
 #
 ####FLEX
+Agregue el flex atributo al elemento secundario de un diseño, y se doblará (estiramiento) para rellenar el área disponible.
+#
+
+####FLEX = 'valor'
 El atributo flex puede tener un valor entero de 0-100. El elemento se extenderá al porcentaje de espacio disponible que coincida con el valor. El valor de flex está limitado a 33, 66, y múltiplos de cinco. Por ejemplo: flex = "5", flex = "20", flex = "33" , flex = "50", flex = "66", flex = "75", .... 
+#
+
+####FLEX ORDER
 **flex-order**	Establece orden de los elementos.
 #
 **flex-order-sm**	Establece orden de los elementos en los dispositivos menos de 600px de ancho.
