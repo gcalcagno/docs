@@ -53,7 +53,9 @@ Utilice el diseño de atributo en un elemento para organizar sus hijos horizonta
 </div>
 ```
 **layout-margin** añade margin alrededor de cada flex 'hijo'.
+#
 **layout-padding** añade padding alrededor de cada flex 'hijo'.
+#
 **layout-fill** obliga al elemento a llenar su contenedor principal. 
 
 ---
