@@ -2,6 +2,7 @@
 Diseño CSS sensible del angular de materiales se basa en FlexBox.
 El sistema de diseño se basa en los atributos de elemento en lugar de clases CSS. Los atributos proporcionan una manera fácil de configurar un valor (por ejemplo layout = "fila"), y, además, nos ayuda a preocupaciones distintas: atributos definen el diseño, y las clases definen el estilo.
 #
+------------------------
 ####FLEX
 Agregue el flex atributo al elemento secundario de un diseño, y se doblará (estiramiento) para rellenar el área disponible.
 ```html
