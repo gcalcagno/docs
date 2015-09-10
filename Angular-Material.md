@@ -1,5 +1,6 @@
 #Angular Material
 
+####OFFSET
 #
 **offset**	Elemento Conjuntos compensado.
 #
@@ -14,6 +15,22 @@
 **offset-lg**	Establece compensado en dispositivos entre 960px y 1200px de ancho elemento.
 #
 **offset-gt-lg**	Compensado en los dispositivos de más de 1200px de ancho elemento Sets.
+
+
+####FLEX
+**orden flex**	Establece orden de los elementos.
+#
+**orden flex-sm**	Establece orden de los elementos en los dispositivos menos de 600px de ancho.
+#
+**orden flex-gt-sm**	Establece orden de los elementos en los dispositivos de más de 600px de ancho.
+#
+**orden flex-md**	Establece orden de los elementos en los dispositivos entre 600px y 960px de ancho.
+#
+**orden flex-gt-md**	Establece orden de los elementos en los dispositivos de más de 960px de ancho.
+#
+**flex-pedido-lg**	Establece orden de los elementos en los dispositivos entre 960px y 1200px de ancho.
+#
+**orden flex-gt-lg**	Establece orden de los elementos en los dispositivos de más de 1200px de ancho.
 
 ```html
 <html ng-app >
