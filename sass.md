@@ -12,7 +12,21 @@ http://sass-lang.com/install
 #### RUN
 sass --watch estilos.scss:estilos.css
 #
-```css
 
+#### MIXIN
+```sass
+//*--- 	Mixin Fonts ---*
+@mixin fonts($font)
+	@font-face
+		font-family: $font
+		src: url('../fonts/#{$font}.eot')
+		src: url('../fonts/#{$font}.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/#{$font}.woff') format('woff'), 
+		url('../fonts/#{$font}.ttf') format('truetype'), 
+		url('../fonts/#{$font}.svg#$font') format('svg')
+
+@include fonts('Forza-Book')
+@include fonts('Forza-Black') 
+@include fonts('Forza-Bold') 
 
 ```
