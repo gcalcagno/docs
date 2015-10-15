@@ -23,3 +23,57 @@ http://www.font2web.com/
 #
 #### Generador de sombras
 http://www.css3maker.com/box-shadow.html
+
+
+#### Personalizar checkbox
+
+```html
+<form class="blockCheckbox">
+    <input type="radio" name="option" id="radio1"  />
+    <label for="radio1">Hombre</label><br />
+    <input type="radio" name="option" id="radio2" />
+    <label for="radio2">Mujer</label><br />
+    <input type="checkbox" name="option" id="check1"  />
+    <label for="check1">DVD</label><br />
+    <input type="checkbox" name="option" id="check2" />
+    <label for="check2">CD</label>
+  </form>
+```
+
+```css
+
+.blockCheckbox
+
+	input[type="radio"], input[type="checkbox"]
+		display: none
+
+	label
+		padding-left: 1.25em
+		background: url('front/img/check.png') no-repeat 
+		background-size: 16px 16px
+
+	input[type="radio"] + label
+		width: 16px
+		height: 16px
+
+	input[type="radio"]:checked + label
+		background: url('front/img/checked.png') no-repeat 
+		width: 16px
+		height: 16px
+		background-size: 16px 16px
+
+	input[type="checkbox"] + label
+		width: 16px 
+		height: 16px
+		
+
+	input[type="checkbox"]:checked + label
+		background: url('front/img/checked.png') no-repeat 
+		width: 16px
+		height: 16px
+		background-size: 16px 16px
+```
+#
+
+
+
