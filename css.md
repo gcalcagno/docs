@@ -1,10 +1,7 @@
 # css
 
 #### Centrar vertical
-http://www.fontsquirrel.com/tools/webfont-generator
-#
-http://www.font2web.com/
-
+##### OPCIÓN 1
 ```html
 <style type="text/css">
     div.parent {
@@ -26,6 +23,18 @@ http://www.font2web.com/
         <img class="child"> 
     </div>
 ```
+##### OPCIÓN 1
+```css
+<style type="text/css">
+    .center-block
+	display: table
+
+	.center-content
+		display: table-cell
+		vertical-align: middle
+```
+
+
 
 #### FontFace
 http://www.fontsquirrel.com/tools/webfont-generator
