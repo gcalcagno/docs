@@ -1,5 +1,32 @@
 # css
 
+#### Centrar vertical
+http://www.fontsquirrel.com/tools/webfont-generator
+#
+http://www.font2web.com/
+
+```html
+<style type="text/css">
+    div.parent {
+         position: relative;
+    }
+
+    /*vertical middle and horizontal center align*/
+    img.child {
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    </style>
+
+    <div class="parent">
+        <img class="child"> 
+    </div>
+```
+
 #### FontFace
 http://www.fontsquirrel.com/tools/webfont-generator
 #
