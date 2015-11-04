@@ -33,14 +33,13 @@ $vim /etc/hosts
 ```
 
 2) $homestead edit (abre el archivo homestead.yaml para configurar las maquinas virtuales)
-#
-~/Projects (carpeta local dentro de tu usuario)
-#
+```php
+/* ~/Projects (carpeta local dentro de tu usuario)
 /home/vagrant/Projects (carpeta dentro de la maquina virtual) 
-#
 demo.app (host)
-#
-/home/vagrant/Projects/Demo (carpeta dentro de la maquina virtual) 
+/home/vagrant/Projects/Demo (carpeta dentro de la maquina virtual) */
+```
+
 ```bash 
 folders:
     - map: ~/Projects 
