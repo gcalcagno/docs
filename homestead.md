@@ -29,14 +29,13 @@ $ bash init.sh
 ```bash 
 $vim /etc/hosts
 ```
+
 2) Crear el host
-#
+```bash 
 192.168.10.10   demo.app
-#
 (demo.app es el -map del archivo homestead.yaml donde configuramos el site en el siguiente paso)
-#
-#
-#
+```
+
 3) $homestead edit (abre el archivo homestead.yaml para configurar las maquinas virtuales)
 Ejemplo:
 ```bash 
