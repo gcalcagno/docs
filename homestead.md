@@ -28,15 +28,11 @@ $ bash init.sh
 1) Crear host en tu pc (192.168.10.10 es la ip que usa generalmente vagrant y virtualbox)
 ```bash 
 $vim /etc/hosts
-```
-
-2) Crear el host
-```bash 
 192.168.10.10   demo.app
 (demo.app es el -map del archivo homestead.yaml donde configuramos el site en el siguiente paso)
 ```
 
-3) $homestead edit (abre el archivo homestead.yaml para configurar las maquinas virtuales)
+2) $homestead edit (abre el archivo homestead.yaml para configurar las maquinas virtuales)
 Ejemplo:
 ```bash 
 folders:
@@ -47,7 +43,7 @@ sites:
       to: /home/vagrant/Projects/Demo (carpeta dentro de la maquina virtual) 
 ```
 
-4)Crea la maquina virtual tomando los cambios en el archivo homestead.yaml en virtual box
+3)Crea la maquina virtual tomando los cambios en el archivo homestead.yaml en virtual box
 ```bash 
 $homestead provision
 ```
