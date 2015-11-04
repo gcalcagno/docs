@@ -1,37 +1,49 @@
 # HOMESTEAD
 
 #### INSTALACIÓN
-1) install virtualbox
+1) Instalar virtualbox
+https://www.virtualbox.org/
 
-2) install vagrant
+2) Instalar vagrant
+https://www.vagrantup.com/
 
-3) $vagrant box add laravel/homestead
-
-4) $composer global require "laravel/homestead=~2.0"
-(crea .homestead y carpeta homestead)
-
-5) 
+3) Instalar Homestead
 ```bash 
-$ cd ~/.composer/vendor/laravel/homestead/ 
-$ bash init.sh (correr este comando dentro de la carpeta homestead)
+$vagrant box add laravel/homestead
 ```
 
-6)$homestead up
-(crea la maquina virtual en virtual box)
+4) Crear archivo .homestead y carpeta homestead
+```bash 
+$composer global require "laravel/homestead=~2.0"
+```
 
-CREAR MAQUINA VIRTUAL
-1) Crear host
+5) Configuración (Correr comando dentro de la carpeta homestead)
+```bash 
+$ cd ~/.composer/vendor/laravel/homestead/ 
+$ bash init.sh
+```
+
+
+####CREAR MAQUINA VIRTUAL
+1) Crear host en tu pc (192.168.10.10 es la ip que usa generalmente vagrant y virtualbox)
+```bash 
 $vim /etc/hosts
 Agregar la línea:
 192.168.10.10   demo.app
+```
 
-7) $homestead edit (abre el archivo homestead.yml)
+7) $homestead edit (abre el archivo homestead.yml para configurar las maquinas virtuales)
 Ejemplo:
+```bash 
 folders:
     - map: ~/Projects (carpeta local dentro de tu usuario)
       to: /home/vagrant/Projects (carpeta dentro de la maquina virtual) 
 sites:
-    - map: homestead.app (host)
-      to: /home/vagrant/Projects (carpeta dentro de la maquina virtual) 
     - map: demo.app (host)
       to: /home/vagrant/Projects/Demo (carpeta dentro de la maquina virtual) 
+```
+
+6)Crea la maquina virtual tomando los cambios en el archivo homestead.yaml en virtual box
+```bash 
+$homestead provision
+```
