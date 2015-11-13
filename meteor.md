@@ -1,4 +1,9 @@
 #METEOR JS
+### PATRON MVVM
+```
+Meteor almacena un modelo de datos igual en el cliente y el servidor. El cliente almacena los cambios localmente e intenta sincronizar con el servidor, al tiempo que vigila los cambios que puedan llegar al servidor
+
+```
 
 ### Crear Proyecto
 ```
