@@ -1,23 +1,23 @@
 #METEOR JS
 
-####Crear Proyecto
+### Crear Proyecto
 ```
 $ meteor create MiProyecto 
 ```
-####Ejecutar Proyecto
+### Ejecutar Proyecto
 ```
 $ cd /MiProyecto
 $ meteor
 ```
 
-####Se generan 3 archivos
+###Se generan 3 archivos
 ```
 MiBiblioteca.css
 MiBiblioteca.js
 MiBiblioteca.html
 ```
 
-#### Crear categorias 
+### Crear categorias con MONGO DB
 1) Crear colección en nuestro archivo MiBiblioteca.js (en la primer línea de nuestro archivo)
 ```js
   favoritos = new Meteor.Collection ("Favoritos");
