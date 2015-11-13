@@ -27,10 +27,19 @@ MiBiblioteca.html
 
 2)Crear categorías con Mongo DB desde la consola del navegador dentro de la "Colección Favoritos"
 ``` js
+/*crea categoria con registros */
 favoritos.insert({Category:"Videos", items:{Nombre: "La Revolución Francesa", Formato:"mp4", Localizacion: "youtube"}});
 favoritos.insert({Category:"Libros", items:{Nombre: "Piratas del Caribe", Formato:"digital", Localizacion: "dropbox"}});
+
+/*categoria*/
+favoritos.insert({Category:"Tutoriales"});
+
 /*Busca Categoría Libros*/
 favoritos.findOne({Category: "Libros"});
+
 /*Count de Categorías*/
 favoritos.find({}).count();
+
+/*eliminar categoria */
+favoritos.remove({"_id": "F37ALy9HZqha4S2BM"});
 ```
