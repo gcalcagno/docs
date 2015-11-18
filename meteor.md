@@ -44,7 +44,6 @@ la raíz de nuestro proyecto).
 1) Creamos una carpeta public dentro de la Raíz de nuestro proyecto.
 $ cd /MiProyecto
 $ mkdir public
-IMPORTANTE:Si colocamos la carpeta img o fuentes dentro de Client la applicación va a dar un error.
 ```
 
 
