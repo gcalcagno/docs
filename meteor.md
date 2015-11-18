@@ -18,6 +18,11 @@ $ meteor create MiProyecto
 ```
 $ cd /MiProyecto
 $ meteor
+
+Se generan 3 archivos
+MiBiblioteca.css
+MiBiblioteca.js
+MiBiblioteca.html
 ```
 
 
@@ -42,12 +47,7 @@ $ mkdir public
 IMPORTANTE:Si colocamos la carpeta img o fuentes dentro de Client la applicación va a dar un error.
 ```
 
-###Se generan 3 archivos
-```
-MiBiblioteca.css
-MiBiblioteca.js
-MiBiblioteca.html
-```
+
 
 ### Crear categorias con MONGO DB
 1) Crear colección en nuestro archivo MiBiblioteca.js (en la primer línea de nuestro archivo)
