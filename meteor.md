@@ -1,9 +1,12 @@
 #METEOR JS
-### PATRON MVVM
 ```
-Meteor almacena un modelo de datos igual en el cliente y el servidor. El cliente 
-almacena los cambios localmente e intenta sincronizar con el servidor, al tiempo 
-que vigila los cambios que puedan llegar al servidor
+Meteor es una plataforma para crear aplicaciones web en tiempo real construida sobre Node.js. Meteor se localiza entre la base de datos de la aplicación y su interfaz de usuario y se encarga que las dos partes estén sincronizadas.
+
+Como Meteor usa Node.js, se utiliza JavaScript en el cliente y en el servidor. Y más aún, Meteor es capaz de compartir código entre ambos entornos.
+
+El resultado es una plataforma muy potente y muy sencilla ya que Meteor abstrae muchas de las molestias y dificultades que nos encontramos habitualmente en el desarrollo de aplicaciones web.
+
+https://www.meteor.com/
 
 ```
 
