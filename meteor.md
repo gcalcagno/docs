@@ -17,6 +17,28 @@ $ cd /MiProyecto
 $ meteor
 ```
 
+
+### SASS
+
+```
+1) Creamos una carpeta Client dentro de la Raíz de nuestro proyecto (Todos los archivos que estén dentro de 
+esta carpeta serán compilados por Meteor)
+$ cd /MiProyecto
+$ mkdir client
+2) Instalamos fourseven y se va a encargar de compilar todos los archivos sass
+$ meteor add fourseven:scss
+```
+
+### IMAGENES Y FUENTES
+```
+1) Las Imagenes y Fuentes deben estar en la carpeta Public (si no tenemos esta carpeta la creamos dentro de 
+la raíz de nuestro proyecto).
+1) Creamos una carpeta public dentro de la Raíz de nuestro proyecto.
+$ cd /MiProyecto
+$ mkdir public
+IMPORTANTE:Si colocamos la carpeta img o fuentes dentro de Client la applicación va a dar un error.
+```
+
 ###Se generan 3 archivos
 ```
 MiBiblioteca.css
