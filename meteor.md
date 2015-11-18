@@ -49,11 +49,11 @@ IMPORTANTE:Si colocamos la carpeta img o fuentes dentro de Client la applicació
 
 
 
-### Crear categorias con MONGO DB
+### DEMO: Crear categorias con MONGO DB
 1) Crear colección en nuestro archivo MiBiblioteca.js (en la primer línea de nuestro archivo)
 ```js
   favoritos = new Meteor.Collection ("Favoritos");
-  /*para testear si se creó correctamente*/
+  /*Desde la consola del navegador para testear si se creó correctamente corremos: favoritos*/
   favoritos
 ```
 
