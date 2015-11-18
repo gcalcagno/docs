@@ -31,7 +31,7 @@ $ meteor add fourseven:scss
 
 ### IMAGENES Y FUENTES
 ```
-1) Las Imagenes y Fuentes deben estar en la carpeta Public (si no tenemos esta carpeta la creamos dentro de 
+Las Imagenes y Fuentes deben estar en la carpeta Public (si no tenemos esta carpeta la creamos dentro de 
 la raíz de nuestro proyecto).
 1) Creamos una carpeta public dentro de la Raíz de nuestro proyecto.
 $ cd /MiProyecto
