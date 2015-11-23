@@ -3,6 +3,12 @@
 #### cambiar breackpoint menu mobile
 ```
 @media (max-width: 960px) 
+	.navbar-toggle 
+		display: block
+
+```
+```
+@media (max-width: 960px) 
 	.navbar-header 
 		float: none
 
