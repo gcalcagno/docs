@@ -2,6 +2,11 @@
 https://css-tricks.com/gulp-for-beginners/
 
 ```
+$ npm install gulp-sass --save-dev
+$ sudo npm install gulp -g
+```
+
+```
 // Include gulp
 var gulp = require('gulp');
 var sass = require('gulp-sass');
