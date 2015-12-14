@@ -1,8 +1,7 @@
 #GULP
 https://css-tricks.com/gulp-for-beginners/
 
-´´´
-
+```
 // Include gulp
 var gulp = require('gulp');
 var sass = require('gulp-sass');
@@ -19,4 +18,4 @@ gulp.task('sass', function(){
     .pipe(sass()) // Using gulp-sass
     .pipe(gulp.dest('css/'))
 });
-´´´
+```
