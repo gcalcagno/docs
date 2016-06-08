@@ -1,14 +1,14 @@
-####GULP
+###GULP
 
 #
 gulp watch
 
-####MIGRATE
+###MIGRATE
 php artisan migrate
 #
 php artisan db:seed
 
-#ENVIO DE EMAILS CON GMAIL
+###ENVIO DE EMAILS CON GMAIL
 #####Activar envio de email en cuenta gmail para aplicaciones
 https://www.google.com/settings/security/lesssecureapps and active it.
 #
