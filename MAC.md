@@ -12,3 +12,6 @@ aplicaciones->xampp->manager-osx
 
 ####VER ARCHIVOS OCULTOS
 $ defaults write com.apple.finder AppleShowAllFiles -bool true
+
+#### plugin terminal
+http://ohmyz.sh/
