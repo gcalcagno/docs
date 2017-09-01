@@ -10,12 +10,12 @@ $ curl "http://localhost:8081/index.android.bundle?platform=android" -o "android
 ```
 ### CLEAN GRADLE
 ```
-cd android/ && ./gradlew clean
-cd .. && react-native run-android
+$ cd android/ && ./gradlew clean
+$ cd .. && react-native run-android
 ```
 ### LOG ANDROID
 ```
-react-native log-android
+$ react-native log-android
 ```
 
 ### EXPORTAR PROYECTO
