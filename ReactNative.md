@@ -2,16 +2,17 @@
 
 ### RUN ANDROID
 ```
-react-native run-android
+$ react-native run-android
 ```
 ### LUEGO DE CAMBIOS EN ANDROID
 ```
 $ curl "http://localhost:8081/index.android.bundle?platform=android" -o "android/app/src/main/assets/index.android.bundle"
 ```
 ### CLEAN GRADLE
+```
 cd android/ && ./gradlew clean
 cd .. && react-native run-android
-
+```
 ### LOG ANDROID
 ```
 react-native log-android
@@ -32,12 +33,12 @@ $ cd android && ./gradlew assembleDebug
 
 ### RUN IOS
 ```
-react-native run-ios
+$ react-native run-ios
 ```
 
 ### LOG ANDROID
 ```
-react-native log-ios
+$ react-native log-ios
 ```
 
 ### EXPORTAR PROYECTO
